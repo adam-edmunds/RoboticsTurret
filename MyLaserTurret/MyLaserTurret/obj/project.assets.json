@@ -1,0 +1,734 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "AForge/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/AForge.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.dll": {}
+        }
+      },
+      "AForge.Video/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.dll": {}
+        }
+      },
+      "AForge.Video.DirectShow/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge.Video": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        }
+      },
+      "Emgu.CV/3.2.0.2721": {
+        "type": "package",
+        "dependencies": {
+          "ZedGraph": "5.1.5"
+        },
+        "compile": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "build": {
+          "build/Emgu.CV.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.6.0.5131": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "4.6.0.5131",
+          "Emgu.runtime.windows.msvc.rt.arm64": "19.33.31630",
+          "Emgu.runtime.windows.msvc.rt.x64": "19.33.31630",
+          "Emgu.runtime.windows.msvc.rt.x86": "19.33.31630"
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/cvextern.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/cvextern.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg460_64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/cvextern.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg460.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.arm64/19.33.31630": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/concrt140.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/msvcp140.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/msvcp140_1.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/msvcp140_2.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/msvcp140_atomic_wait.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/msvcp140_codecvt_ids.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/vcruntime140.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/vcruntime140_1.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.x64/19.33.31630": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/concrt140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140_1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140_2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140_atomic_wait.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140_codecvt_ids.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140_1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.x86/19.33.31630": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/concrt140.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/msvcp140.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/msvcp140_1.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/msvcp140_2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/msvcp140_atomic_wait.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/msvcp140_codecvt_ids.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/vcruntime140.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "ZedGraph/5.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/ZedGraph.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "AForge/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/AForge.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.dll": {}
+        }
+      },
+      "AForge.Video/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.dll": {}
+        }
+      },
+      "AForge.Video.DirectShow/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge.Video": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        }
+      },
+      "Emgu.CV/3.2.0.2721": {
+        "type": "package",
+        "dependencies": {
+          "ZedGraph": "5.1.5"
+        },
+        "compile": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "build": {
+          "build/Emgu.CV.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.6.0.5131": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "4.6.0.5131",
+          "Emgu.runtime.windows.msvc.rt.arm64": "19.33.31630",
+          "Emgu.runtime.windows.msvc.rt.x64": "19.33.31630",
+          "Emgu.runtime.windows.msvc.rt.x86": "19.33.31630"
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.arm64/19.33.31630": {
+        "type": "package"
+      },
+      "Emgu.runtime.windows.msvc.rt.x64/19.33.31630": {
+        "type": "package"
+      },
+      "Emgu.runtime.windows.msvc.rt.x86/19.33.31630": {
+        "type": "package"
+      },
+      "ZedGraph/5.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/ZedGraph.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "AForge/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/AForge.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.dll": {}
+        }
+      },
+      "AForge.Video/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.dll": {}
+        }
+      },
+      "AForge.Video.DirectShow/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge.Video": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        }
+      },
+      "Emgu.CV/3.2.0.2721": {
+        "type": "package",
+        "dependencies": {
+          "ZedGraph": "5.1.5"
+        },
+        "compile": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "build": {
+          "build/Emgu.CV.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.6.0.5131": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "4.6.0.5131",
+          "Emgu.runtime.windows.msvc.rt.arm64": "19.33.31630",
+          "Emgu.runtime.windows.msvc.rt.x64": "19.33.31630",
+          "Emgu.runtime.windows.msvc.rt.x86": "19.33.31630"
+        },
+        "native": {
+          "runtimes/win-x64/native/cvextern.dll": {},
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg460_64.dll": {}
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.arm64/19.33.31630": {
+        "type": "package"
+      },
+      "Emgu.runtime.windows.msvc.rt.x64/19.33.31630": {
+        "type": "package",
+        "native": {
+          "runtimes/win-x64/native/concrt140.dll": {},
+          "runtimes/win-x64/native/msvcp140.dll": {},
+          "runtimes/win-x64/native/msvcp140_1.dll": {},
+          "runtimes/win-x64/native/msvcp140_2.dll": {},
+          "runtimes/win-x64/native/msvcp140_atomic_wait.dll": {},
+          "runtimes/win-x64/native/msvcp140_codecvt_ids.dll": {},
+          "runtimes/win-x64/native/vcruntime140.dll": {},
+          "runtimes/win-x64/native/vcruntime140_1.dll": {}
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.x86/19.33.31630": {
+        "type": "package"
+      },
+      "ZedGraph/5.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/ZedGraph.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "AForge/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/AForge.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.dll": {}
+        }
+      },
+      "AForge.Video/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.dll": {}
+        }
+      },
+      "AForge.Video.DirectShow/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge.Video": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.DirectShow.dll": {}
+        }
+      },
+      "Emgu.CV/3.2.0.2721": {
+        "type": "package",
+        "dependencies": {
+          "ZedGraph": "5.1.5"
+        },
+        "compile": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "build": {
+          "build/Emgu.CV.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.6.0.5131": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "4.6.0.5131",
+          "Emgu.runtime.windows.msvc.rt.arm64": "19.33.31630",
+          "Emgu.runtime.windows.msvc.rt.x64": "19.33.31630",
+          "Emgu.runtime.windows.msvc.rt.x86": "19.33.31630"
+        },
+        "native": {
+          "runtimes/win-x86/native/cvextern.dll": {},
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg460.dll": {}
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.arm64/19.33.31630": {
+        "type": "package"
+      },
+      "Emgu.runtime.windows.msvc.rt.x64/19.33.31630": {
+        "type": "package"
+      },
+      "Emgu.runtime.windows.msvc.rt.x86/19.33.31630": {
+        "type": "package",
+        "native": {
+          "runtimes/win-x86/native/concrt140.dll": {},
+          "runtimes/win-x86/native/msvcp140.dll": {},
+          "runtimes/win-x86/native/msvcp140_1.dll": {},
+          "runtimes/win-x86/native/msvcp140_2.dll": {},
+          "runtimes/win-x86/native/msvcp140_atomic_wait.dll": {},
+          "runtimes/win-x86/native/msvcp140_codecvt_ids.dll": {},
+          "runtimes/win-x86/native/vcruntime140.dll": {}
+        }
+      },
+      "ZedGraph/5.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/ZedGraph.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AForge/2.2.5": {
+      "sha512": "clkumhM9DggqIzEXAHgVLeWO4arG5YfoPr7J4jfjJx35AoeEIJSSm49J25bwp/9mXQYLwi7y1Wunc8qgYJsGxg==",
+      "type": "package",
+      "path": "aforge/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.2.2.5.nupkg.sha512",
+        "aforge.nuspec",
+        "lib/AForge.dll",
+        "lib/AForge.xml"
+      ]
+    },
+    "AForge.Video/2.2.5": {
+      "sha512": "XqzcOXtBUagEPRqg/00oayxlCPmxP4284SdM62mVotsNoD03fs19BrzdMBfhUOOYPyd0B/IXH7tEWnSDmc2gxA==",
+      "type": "package",
+      "path": "aforge.video/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.video.2.2.5.nupkg.sha512",
+        "aforge.video.nuspec",
+        "lib/AForge.Video.dll",
+        "lib/AForge.Video.xml"
+      ]
+    },
+    "AForge.Video.DirectShow/2.2.5": {
+      "sha512": "pEch6felU/RGAbl0A7yjaQjsGxwiRFU9R+qBqR92wQo++XhzPLeQaZHnAPIBYaG7MfoqtjgCDkK4z3Tra4VQ3w==",
+      "type": "package",
+      "path": "aforge.video.directshow/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.video.directshow.2.2.5.nupkg.sha512",
+        "aforge.video.directshow.nuspec",
+        "lib/AForge.Video.DirectShow.dll",
+        "lib/AForge.Video.DirectShow.xml"
+      ]
+    },
+    "Emgu.CV/3.2.0.2721": {
+      "sha512": "plPgSy2fkP/R0YwIK5PzMMHk4H3R4KpJxFfFhpWwrGGK4i2YiPwxkYhNFkiaOry0AzwI1z6cUztgf5UhIH+zUQ==",
+      "type": "package",
+      "path": "emgu.cv/3.2.0.2721",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Emgu.CV.targets",
+        "build/x64/concrt140.dll",
+        "build/x64/cvextern.dll",
+        "build/x64/msvcp140.dll",
+        "build/x64/opencv_ffmpeg320_64.dll",
+        "build/x64/vcruntime140.dll",
+        "build/x86/concrt140.dll",
+        "build/x86/cvextern.dll",
+        "build/x86/msvcp140.dll",
+        "build/x86/opencv_ffmpeg320.dll",
+        "build/x86/vcruntime140.dll",
+        "emgu.cv.3.2.0.2721.nupkg.sha512",
+        "emgu.cv.nuspec",
+        "lib/net35/Emgu.CV.UI.dll",
+        "lib/net35/Emgu.CV.UI.xml",
+        "lib/net35/Emgu.CV.World.dll",
+        "lib/net35/Emgu.CV.World.xml"
+      ]
+    },
+    "Emgu.CV.runtime.windows/4.6.0.5131": {
+      "sha512": "YAybhlr28ETP2Uv7j1Wg4cxF5CJfgbOT3FQ9602ZY0kZgJKV3qDaUn6ZdUMalO5HocU9czCxHEwHhQH+645XZQ==",
+      "type": "package",
+      "path": "emgu.cv.runtime.windows/4.6.0.5131",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "docs/README.md",
+        "docs/build_info_arm64.inc",
+        "docs/build_info_x64.inc",
+        "docs/build_info_x86.inc",
+        "emgu.cv.runtime.windows.4.6.0.5131.nupkg.sha512",
+        "emgu.cv.runtime.windows.nuspec",
+        "icon.png",
+        "runtimes/win-arm64/native/cvextern.dll",
+        "runtimes/win-x64/native/cvextern.dll",
+        "runtimes/win-x64/native/opencv_videoio_ffmpeg460_64.dll",
+        "runtimes/win-x86/native/cvextern.dll",
+        "runtimes/win-x86/native/opencv_videoio_ffmpeg460.dll"
+      ]
+    },
+    "Emgu.runtime.windows.msvc.rt.arm64/19.33.31630": {
+      "sha512": "Pbu8A7ghkM9HeKSS012SYvrejpj3Hpo5JKF3NaQ+0klv3cu47gbt2W+RaEhcXZZWelPmvgweXBjSVTef0HfTrw==",
+      "type": "package",
+      "path": "emgu.runtime.windows.msvc.rt.arm64/19.33.31630",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "emgu.runtime.windows.msvc.rt.arm64.19.33.31630.nupkg.sha512",
+        "emgu.runtime.windows.msvc.rt.arm64.nuspec",
+        "icon.png",
+        "runtimes/win-arm64/native/concrt140.dll",
+        "runtimes/win-arm64/native/msvcp140.dll",
+        "runtimes/win-arm64/native/msvcp140_1.dll",
+        "runtimes/win-arm64/native/msvcp140_2.dll",
+        "runtimes/win-arm64/native/msvcp140_atomic_wait.dll",
+        "runtimes/win-arm64/native/msvcp140_codecvt_ids.dll",
+        "runtimes/win-arm64/native/vcruntime140.dll",
+        "runtimes/win-arm64/native/vcruntime140_1.dll"
+      ]
+    },
+    "Emgu.runtime.windows.msvc.rt.x64/19.33.31630": {
+      "sha512": "sBIDz7mLJgYKgmut7WNwuCG5/+VTwsf+Oubd430QfdF4bgJPJoUCQ7P9OKvTvqQo1t95DpgdyjxNloDVCGUIFQ==",
+      "type": "package",
+      "path": "emgu.runtime.windows.msvc.rt.x64/19.33.31630",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "emgu.runtime.windows.msvc.rt.x64.19.33.31630.nupkg.sha512",
+        "emgu.runtime.windows.msvc.rt.x64.nuspec",
+        "icon.png",
+        "runtimes/win-x64/native/concrt140.dll",
+        "runtimes/win-x64/native/msvcp140.dll",
+        "runtimes/win-x64/native/msvcp140_1.dll",
+        "runtimes/win-x64/native/msvcp140_2.dll",
+        "runtimes/win-x64/native/msvcp140_atomic_wait.dll",
+        "runtimes/win-x64/native/msvcp140_codecvt_ids.dll",
+        "runtimes/win-x64/native/vcruntime140.dll",
+        "runtimes/win-x64/native/vcruntime140_1.dll"
+      ]
+    },
+    "Emgu.runtime.windows.msvc.rt.x86/19.33.31630": {
+      "sha512": "Jwqm4yrJRDWs4rUmcpwUVvDuISRgp6WJvCX/n1rTy52GjnWKvzTYOPvhKiAH2alB/bBGbNhyP5UvmhUeN3dOXw==",
+      "type": "package",
+      "path": "emgu.runtime.windows.msvc.rt.x86/19.33.31630",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "emgu.runtime.windows.msvc.rt.x86.19.33.31630.nupkg.sha512",
+        "emgu.runtime.windows.msvc.rt.x86.nuspec",
+        "icon.png",
+        "runtimes/win-x86/native/concrt140.dll",
+        "runtimes/win-x86/native/msvcp140.dll",
+        "runtimes/win-x86/native/msvcp140_1.dll",
+        "runtimes/win-x86/native/msvcp140_2.dll",
+        "runtimes/win-x86/native/msvcp140_atomic_wait.dll",
+        "runtimes/win-x86/native/msvcp140_codecvt_ids.dll",
+        "runtimes/win-x86/native/vcruntime140.dll"
+      ]
+    },
+    "ZedGraph/5.1.5": {
+      "sha512": "CclJINtatXbtBS2r4FFMPaGuwokmk5OlBnuW+QN5+d/CST0fv2N88pm8c3rIoOkXMiWvWArE+Jz1d2WA0QPoDQ==",
+      "type": "package",
+      "path": "zedgraph/5.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-LGPL.txt",
+        "lib/ZedGraph.XML",
+        "lib/ZedGraph.dll",
+        "lib/de/ZedGraph.resources.dll",
+        "lib/es/ZedGraph.resources.dll",
+        "lib/fr/ZedGraph.resources.dll",
+        "lib/hu/ZedGraph.resources.dll",
+        "lib/it/ZedGraph.resources.dll",
+        "lib/ja/ZedGraph.resources.dll",
+        "lib/pt/ZedGraph.resources.dll",
+        "lib/ru/ZedGraph.resources.dll",
+        "lib/sk/ZedGraph.resources.dll",
+        "lib/sv/ZedGraph.resources.dll",
+        "lib/tr/ZedGraph.resources.dll",
+        "lib/zh-cn/ZedGraph.resources.dll",
+        "lib/zh-tw/ZedGraph.resources.dll",
+        "readme.txt",
+        "zedgraph.5.1.5.nupkg.sha512",
+        "zedgraph.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "AForge.Video >= 2.2.5",
+      "AForge.Video.DirectShow >= 2.2.5",
+      "Emgu.CV >= 3.2.0.2721",
+      "Emgu.CV.runtime.windows >= 4.6.0.5131"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Adam\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\MyLaserTurret.csproj",
+      "projectName": "MyLaserTurret",
+      "projectPath": "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\MyLaserTurret.csproj",
+      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "AForge.Video": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          },
+          "AForge.Video.DirectShow": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          },
+          "Emgu.CV": {
+            "target": "Package",
+            "version": "[3.2.0.2721, )"
+          },
+          "Emgu.CV.runtime.windows": {
+            "target": "Package",
+            "version": "[4.6.0.5131, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Emgu.CV from 4.6.0.5131 to 3.2.0.2721. Reference the package directly from the project to select a different version. \r\n MyLaserTurret -> Emgu.CV.runtime.windows 4.6.0.5131 -> Emgu.CV (>= 4.6.0.5131) \r\n MyLaserTurret -> Emgu.CV (>= 3.2.0.2721)",
+      "libraryId": "Emgu.CV",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

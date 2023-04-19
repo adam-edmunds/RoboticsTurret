@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "B101t4ynu9IdLogAIts6Oh7XmSdXjcI88s2LHZ+nL+wz5XcueO++W7LeR1xH6HgPz8V2p7b3uMQkmEGKEA7LEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\MyLaserTurret.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adam\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\emgu.cv\\3.2.0.2721\\emgu.cv.3.2.0.2721.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\emgu.cv.runtime.windows\\4.6.0.5131\\emgu.cv.runtime.windows.4.6.0.5131.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\emgu.runtime.windows.msvc.rt.arm64\\19.33.31630\\emgu.runtime.windows.msvc.rt.arm64.19.33.31630.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\emgu.runtime.windows.msvc.rt.x64\\19.33.31630\\emgu.runtime.windows.msvc.rt.x64.19.33.31630.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\emgu.runtime.windows.msvc.rt.x86\\19.33.31630\\emgu.runtime.windows.msvc.rt.x86.19.33.31630.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\zedgraph\\5.1.5\\zedgraph.5.1.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Emgu.CV from 4.6.0.5131 to 3.2.0.2721. Reference the package directly from the project to select a different version. \r\n MyLaserTurret -> Emgu.CV.runtime.windows 4.6.0.5131 -> Emgu.CV (>= 4.6.0.5131) \r\n MyLaserTurret -> Emgu.CV (>= 3.2.0.2721)",
+      "libraryId": "Emgu.CV",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

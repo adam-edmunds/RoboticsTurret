@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\MyLaserTurret.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\MyLaserTurret.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\MyLaserTurret.csproj",
+        "projectName": "MyLaserTurret",
+        "projectPath": "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\MyLaserTurret.csproj",
+        "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adam\\Desktop\\Coding\\arduino\\laserturret\\MyLaserTurret\\MyLaserTurret\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[3.2.0.2721, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.6.0.5131, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

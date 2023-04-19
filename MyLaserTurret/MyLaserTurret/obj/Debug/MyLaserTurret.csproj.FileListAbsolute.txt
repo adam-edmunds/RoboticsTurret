@@ -1,0 +1,52 @@
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\bin\Debug\MyLaserTurret.exe.config
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\bin\Debug\MyLaserTurret.exe
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\bin\Debug\MyLaserTurret.pdb
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.csprojResolveAssemblyReference.cache
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.Properties.Resources.resources
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.csproj.GenerateResource.Cache
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.exe
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.pdb
+c:\users\michael\documents\visual studio 2017\Projects\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.Form1.resources
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\MyLaserTurret.exe.config
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\MyLaserTurret.exe
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\MyLaserTurret.pdb
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.csproj.AssemblyReference.cache
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.Form1.resources
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.Properties.Resources.resources
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.csproj.GenerateResource.cache
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.csproj.CoreCompileInputs.cache
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.exe
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.pdb
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\obj\Debug\MyLaserTurret.csproj.CopyComplete
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\LeapCSharp.NET3.5.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\AForge.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\AForge.Video.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\cvextern.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\opencv_videoio_ffmpeg460_64.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\concrt140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\msvcp140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\msvcp140_1.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\msvcp140_2.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\msvcp140_atomic_wait.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\msvcp140_codecvt_ids.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\vcruntime140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\vcruntime140_1.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\detection\haarcascade_frontalface_default.xml
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\detection\coco.names
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\detection\yolov3.cfg
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\detection\yolov3.weights
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x64\concrt140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x64\cvextern.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x64\msvcp140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x64\opencv_ffmpeg320_64.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x64\vcruntime140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x86\concrt140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x86\cvextern.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x86\msvcp140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x86\opencv_ffmpeg320.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\x86\vcruntime140.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\Emgu.CV.World.dll
+C:\Users\Adam\Desktop\Coding\arduino\laserturret\MyLaserTurret\MyLaserTurret\bin\Debug\ZedGraph.dll
