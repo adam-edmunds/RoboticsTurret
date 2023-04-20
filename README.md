@@ -32,3 +32,10 @@ Install the Arduino IDE and upload the program to the arduino.
 Once everything is connected and running, you can start the C# program.
 
 <b>Note:</b> The Leap Motion Controller will only track the right hand.
+
+# Useful Links
+
+- [Emgu](https://www.emgu.com/wiki/index.php/Main_Page)
+- [AForge](http://www.aforgenet.com/framework/samples/video.html)
+- [Visual Studio](https://visualstudio.microsoft.com/)
+- [Arduino IDE](https://www.arduino.cc/en/software)
