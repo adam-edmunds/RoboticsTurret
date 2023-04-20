@@ -1,4 +1,4 @@
-# Robotics Laster Turret!!
+# Robotics Laser Turret!!
 
 This is an implementation for a laster turret that uses hand tracking or facial recognition to move a turret with a laser attached to it.
 
